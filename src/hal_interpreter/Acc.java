@@ -1,15 +1,31 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package hal_interpreter;
 
-/**
- *
- * @author debian
- */
+
 public class Acc {
+   
+    private double akkumulator;
     
+    
+    public Acc(){
+    
+    akkumulator=0;
+    
+        
+    }
+   
+
+    /**
+     * @return the akkumulator
+     */
+    public double getAkkumulator() {
+        return akkumulator;
+    }
+
+    /**
+     * @param akkumulator the akkumulator to set
+     */
+    public void setAkkumulator(double akkumulator) {
+        this.akkumulator = akkumulator;
+    }
+   
 }
