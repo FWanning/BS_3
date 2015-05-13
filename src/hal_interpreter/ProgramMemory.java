@@ -79,6 +79,13 @@ public class ProgramMemory {
     
     return "0";
     }  
+    
+    
+    public int getProgramSize(){
+    
+    return list.size();
+    
+    }  
 }
 
 class listElement{
